@@ -2,7 +2,7 @@ import os
 import json
 
 dir = os.getcwd() + '/json/cards/'
-output_filename = 'cards.json'
+output_filename = 'db.json'
 numberFiles = len(os.listdir(dir))
 
 with open(output_filename, "w") as outfile:
